@@ -1,9 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Redirecting...</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://www.youtube.com/@hyjatt">link</a>.</p>
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#socials">Connect</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="typewriter-text"></h1>
+            <p class="subtitle">Capturing Moments. Pushing Limits.</p>
+            <a href="#socials" class="btn-primary">Let's Connect</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am a 19-year-old student at Universiti Teknologi MARA (UiTM), balancing rigorous academics with a deep passion for visual storytelling and endurance athletics.</p>
+                    <p>Whether I am color grading a new vlog or logging kilometers for my upcoming half-marathon, I approach every endeavor with precision, discipline, and a drive for continuous improvement. Based in Jementah, Johor, Malaysia xxxxxxxxx, I am always seeking the next challenge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">What I Do</h2>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-camera-retro card-icon"></i>
+                    <h3>Photography & Vlogging</h3>
+                    <p>Shooting primarily with Sony a6400 and Canon M50 setups. I specialize in crafting compelling visual narratives and executing high-end post-production workflows in DaVinci Resolve Studio 20.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-running card-icon"></i>
+                    <h3>Endurance Athletics</h3>
+                    <p>An active runner currently undergoing structured training for a half-marathon this September. I utilize a data-driven approach to fitness, relying on Garmin biometrics to optimize performance.</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-flag-checkered card-icon"></i>
+                    <h3>Motorsports</h3>
+                    <p>An avid follower of Formula 1, bringing a deep appreciation for the strategic, technical, and high-performance aspects of competitive racing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="socials" class="section">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <p class="social-subtitle">Find my latest content, training logs, and creative projects across my primary platforms.</p>
+            <div class="social-links">
+                <a href="#" class="social-btn instagram" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="social-btn youtube" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+                <a href="#" class="social-btn tiktok" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Professional Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
 </body>
 </html>
