@@ -41,6 +41,26 @@ body {
     }
 }
 
+/* Avatar Styles */
+.avatar-container {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    border: 3px solid #38bdf8;
+    padding: 4px;
+    background-color: #0f172a;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: #334155; /* Fallback color before image loads */
+}
+
 .name {
     font-size: 2.5rem;
     font-weight: 700;
